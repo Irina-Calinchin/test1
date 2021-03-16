@@ -1,0 +1,74 @@
+
+    body{
+        background-color: #EEE;
+      }
+      h1,h2,p,ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+      }
+  
+      #business-card{
+        background-color: #111;
+        width: 400px;
+        font-family: Arial;
+        border-top: 75px solid #111;
+        border-bottom: 75px solid #111;
+        /* border-right: 30px solid #111; */
+        border-left: 30px solid #111;
+        box-shadow: 0 0 1px 1px #112;
+  
+      
+      }
+      #business-card .name {
+          display: inline-block;
+          color: white;
+          text-align: right;
+          padding-right: 10px;
+          margin-right: -4px;
+          vertical-align: top;
+          
+      }
+      #business-card .name h1{
+        font-weight: 200;
+        font-size: 30px;
+      }
+      #business-card .name h2{
+        color: #b38600;
+        text-transform: uppercase;
+        font-size: 23px;
+        
+      }
+      
+      #business-card .name small{
+          color: grey;   
+      }
+  
+      #business-card .info{
+          display: inline-block;
+          color: white;
+          font-size: 13px;
+          padding-left: 10px;
+          border-left: 2px solid white;
+          
+      }
+      #business-card p {
+        font-family: Helvetica;
+        font-size: 15px;
+      }
+      #business-card .info li{
+          color: grey;
+          
+      }
+      #business-card .info li:nth-child(1):before{
+        content: url(https://icons.iconarchive.com/icons/graphicloads/100-flat/16/phone-call-icon.png);
+        padding-right: 5px;
+      }
+      #business-card .info li:nth-child(2):before{
+          content: url(https://icons.iconarchive.com/icons/hopstarter/sleek-xp-basic/16/Mail-icon.png);
+          padding-right: 5px;
+      }
+      #business-card .info li:nth-child(3):before{
+          content: url(https://icons.iconarchive.com/icons/alecive/flatwoken/16/Apps-Google-Maps-icon.png);
+          padding-right: 5px;
+      }
